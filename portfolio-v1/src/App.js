@@ -1,13 +1,10 @@
 import './App.css';
-import { Button,ThemeProvider } from "@mui/material"
-import { Theme } from './components/theme';
+import { Home } from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <ThemeProvider theme={ Theme }>
-        <Button variant='outlined'>Hello World</Button>
-      </ThemeProvider>
+      <Home />
     </div>
   );
 }
