@@ -8,15 +8,22 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%,-0%);
-    width: 77vh;
+    transform: translate(-50%, 0%);
+    width: 35vw;
     height: auto;
     border-radius:500px;
 }
 
-@media all and (max-width: 700px){
+@media (min-width: 421px) and (max-width: 850px){
     .pic{
-        transform: translate(-50%,-25%);
-        width: 55vh;
+        transform: translate(-50%, -10%);
+        width: 50vw;
+    }
+}
+
+@media (min-width:0px) and (max-width: 420px){
+    .pic{
+        transform: translate(-50%, -100%);
+        width:70vw
     }
 }

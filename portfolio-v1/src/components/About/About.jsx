@@ -8,6 +8,7 @@ import styled, { keyframes } from 'styled-components'
 const MainContainer = styled.div`
 position: relative;
 height: 100vh;
+width: 100vw;
 background:rgb(250, 200, 100,0.77);
 }
 `
@@ -70,11 +71,10 @@ export const About = () => {
          <DarkDiv  click={click}/>
            
             <Center className='yinyang' style={click?{transform:"translate(-90%,-30%)"}:{transform:"translate(-50%,-50%)"}} click={click}>
-                <YinYang  onClick={()=> handleClick()} width={click ? 80 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <YinYang  onClick={()=> handleClick()} width={click ? 80 : 200} height={click ? 80 : 200} fill='currentColor' />
                 <span className='clickHere'>Click To Know About Me</span>
             </Center>
 
-            {/* </Container> */}
             {click ? <Intro click={click} /> : null }
         </MainContainer>
     )

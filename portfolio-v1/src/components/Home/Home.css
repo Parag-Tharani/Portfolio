@@ -34,7 +34,7 @@
 
 
 .name{
-    font-size: 5vh;
+    font-size: 2vw;
     font-weight: 500;
     font-family: 'Splash', cursive;
     color: rgba(255, 255, 255, 0.9);
@@ -42,7 +42,7 @@
 
 .talent{
     margin:0;
-    font-size: 12vh;
+    font-size: 7vw;
     font-family: 'Rubik Moonrocks', cursive;
     color: rgba(255, 255, 255, 0.75);
 }

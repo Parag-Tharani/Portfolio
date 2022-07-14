@@ -56,9 +56,6 @@ cursor: pointer;
     font-weight:300;
 
 }
-
-
-
 `
 
 const Intro = () => {
@@ -72,6 +69,7 @@ const Intro = () => {
                 <Text style={{color:"rgb(250, 200, 100,0.77)"}}>
                     <p className='clickHere'>Hello World</p>
                     <h1 className='clickHere'>Myslef Parag Tharani</h1>
+                    <p className='clickHere'></p>
                 </Text>
             </SubBox>
             <SubBox>

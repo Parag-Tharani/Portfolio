@@ -25,7 +25,7 @@ export const Home = () => {
     console.log(currentTheme)
     return (
         <>
-        <Box sx={{display:"flex"}}>
+        <Box sx={{display:"flex", width:"100vw"}}>
             
             <Box>
             {!matches && <img src={Bulb} onClick={() => dispatch(setTheme(!currentTheme))} alt="Bulb" style={{position:"absolute", left:"32vh", zIndex:2, width:"30vh", cursor:"pointer"}}/>}
